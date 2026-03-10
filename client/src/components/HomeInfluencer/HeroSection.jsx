@@ -1,5 +1,6 @@
 import React from 'react'
 import { Search, MapPin, Users, Filter, ChevronDown, Mail, Bookmark, ExternalLink, Instagram, Youtube, Twitter, Sun, Moon } from 'lucide-react';
+import Rajwadaimg from '../../assets/Rajwadaimg.jpg'
 
 
 const HeroSection = () => {
@@ -7,7 +8,8 @@ const HeroSection = () => {
     <div className="relative bg-gradient-to-br from-gray-900 to-gray-800 overflow-hidden">
     <div className="absolute inset-0 opacity-20">
       <img
-        src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80"
+        // src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80"
+        src={Rajwadaimg}
         alt="Background"
         className="w-full h-full object-cover"
       />
